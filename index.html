@@ -1,0 +1,167 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Record Score - Online Cricket Scorer</title>
+    <meta name="keywords"				content="record score, cricket match">
+    <meta name="description"			content="This page lets you score for your cricket match">
+
+    <link href="https://cricketscorer-71d6.kxcdn.com/favicon.ico" rel="shortcut icon">
+
+    <meta name="ROBOTS"				    content="NOINDEX">
+    <meta name="GOOGLEBOT"			    content="NOINDEX">
+
+    <meta property="og:type"		    content="website" />
+    <meta property="og:title"		    content="Record Score - Online Cricket Scorer" />
+    <meta property="og:description"	    content="This page lets you score for your cricket match">
+    <meta property="og:url"			    content="" />
+    <meta property="og:image"           content="https://cricketscorer-71d6.kxcdn.com/images/tired-of-screaming-scores.png" />
+
+    <link rel="stylesheet"              href="https://cricketscorer-71d6.kxcdn.com/build/css/all-ef03224d88.css" crossorigin="anonymous">
+
+    <script>
+        var appConfig = {
+            appEndpoint:            'https://cricketscorer.com.au',
+            apiEndpoint:            'https://cricketscorer.com.au/api/',
+            isNotSupportedBrowser:  false,
+        };
+    </script>
+    <link rel="stylesheet"              href="https://cricketscorer.com.au/react-record-score/static/css/main.da610f87.css">
+
+        <!-- Error Reporting -->
+    <script src="https://cdn.ravenjs.com/3.20.1/raven.min.js" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        Raven.config('https://909c9abf0a2b46b183a71630c769d397@sentry.io/249896', {
+            release: 'BN 99'
+        }).install()
+    </script>
+    
+    <!--[if lt IE 9]>
+    <script>
+        (function(){
+            var ef = function(){};
+            window.console = window.console || {log:ef,warn:ef,error:ef,dir:ef};
+        }());
+    </script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv-printshiv.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/es5-shim/4.5.7/es5-shim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/es5-shim/4.5.7/es5-sham.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/json3/3.3.2/json3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/es6-shim/0.34.2/es6-shim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/es6-shim/0.34.2/es6-sham.min.js"></script>
+    <![endif]-->
+
+    <script type="text/javascript">
+        if (!window.localStorage) {
+            Object.defineProperty(window, "localStorage", new (function () {
+                var aKeys = [], oStorage = {};
+                Object.defineProperty(oStorage, "getItem", {
+                    value: function (sKey) { return sKey ? this[sKey] : null; },
+                    writable: false,
+                    configurable: false,
+                    enumerable: false
+                });
+                Object.defineProperty(oStorage, "key", {
+                    value: function (nKeyId) { return aKeys[nKeyId]; },
+                    writable: false,
+                    configurable: false,
+                    enumerable: false
+                });
+                Object.defineProperty(oStorage, "setItem", {
+                    value: function (sKey, sValue) {
+                        if(!sKey) { return; }
+                        document.cookie = escape(sKey) + "=" + escape(sValue) + "; expires=Tue, 19 Jan 2038 03:14:07 GMT; path=/";
+                    },
+                    writable: false,
+                    configurable: false,
+                    enumerable: false
+                });
+                Object.defineProperty(oStorage, "length", {
+                    get: function () { return aKeys.length; },
+                    configurable: false,
+                    enumerable: false
+                });
+                Object.defineProperty(oStorage, "removeItem", {
+                    value: function (sKey) {
+                        if(!sKey) { return; }
+                        document.cookie = escape(sKey) + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
+                    },
+                    writable: false,
+                    configurable: false,
+                    enumerable: false
+                });
+                Object.defineProperty(oStorage, "clear", {
+                    value: function () {
+                        if(!aKeys.length) { return; }
+                        for (var sKey in aKeys) {
+                            document.cookie = escape(sKey) + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
+                        }
+                    },
+                    writable: false,
+                    configurable: false,
+                    enumerable: false
+                });
+                this.get = function () {
+                    var iThisIndx;
+                    for (var sKey in oStorage) {
+                        iThisIndx = aKeys.indexOf(sKey);
+                        if (iThisIndx === -1) { oStorage.setItem(sKey, oStorage[sKey]); }
+                        else { aKeys.splice(iThisIndx, 1); }
+                        delete oStorage[sKey];
+                    }
+                    for (aKeys; aKeys.length > 0; aKeys.splice(0, 1)) { oStorage.removeItem(aKeys[0]); }
+                    for (var aCouple, iKey, nIdx = 0, aCouples = document.cookie.split(/\s*;\s*/); nIdx < aCouples.length; nIdx++) {
+                        aCouple = aCouples[nIdx].split(/\s*=\s*/);
+                        if (aCouple.length > 1) {
+                            oStorage[iKey = unescape(aCouple[0])] = unescape(aCouple[1]);
+                            aKeys.push(iKey);
+                        }
+                    }
+                    return oStorage;
+                };
+                this.configurable = false;
+                this.enumerable = true;
+            })());
+        }
+    </script>    <!-- FullStory Tracking -->
+<script>
+    window['_fs_debug'] = false;
+    window['_fs_host'] = 'fullstory.com';
+    window['_fs_org'] = '836WB';
+    window['_fs_namespace'] = 'FS';
+    (function(m,n,e,t,l,o,g,y){
+        if (e in m) {if(m.console && m.console.log) { m.console.log('FullStory namespace conflict. Please set window["_fs_namespace"].');} return;}
+        g=m[e]=function(a,b){g.q?g.q.push([a,b]):g._api(a,b);};g.q=[];
+        o=n.createElement(t);o.async=1;o.src='https://'+_fs_host+'/s/fs.js';
+        y=n.getElementsByTagName(t)[0];y.parentNode.insertBefore(o,y);
+        g.identify=function(i,v){g(l,{uid:i});if(v)g(l,v)};g.setUserVars=function(v){g(l,v)};
+        g.identifyAccount=function(i,v){o='account';v=v||{};v.acctId=i;g(o,v)};
+        g.clearUserCookie=function(c,d,i){if(!c || document.cookie.match('fs_uid=[`;`]*`[`;`]*`[`;`]*`')){
+            d=n.domain;while(1){n.cookie='fs_uid=;domain='+d+
+                ';path=/;expires='+new Date(0).toUTCString();i=d.indexOf('.');if(i<0)break;d=d.slice(i+1)}}};
+    })(window,document,window['_fs_namespace'],'script','user');
+
+    if (typeof(Storage) !== "undefined") {
+        // Code for localStorage/sessionStorage.
+    } else {
+        // Sorry! No Web Storage support...
+        console.error('Storage not supported in this browser');
+    }
+</script>
+<!-- FullStory Tracking Ends -->
+
+</head>
+
+<body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script type="text/javascript" src="code.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,319 @@
+{
+	"matchId": 1553,
+	"inningsId": 1326,
+	"inningsNumber": 2,
+	"teamBatting": {
+		"id": 1356,
+		"name": "11 king",
+		"isTossWon": false,
+		"players": [
+			{
+				"id": 2978,
+				"name": "Aabid"
+			},
+			{
+				"id": 2975,
+				"name": "Aslam"
+			},
+			{
+				"id": 2977,
+				"name": "Bhavarji"
+			},
+			{
+				"id": 2854,
+				"name": "Bowler 1"
+			},
+			{
+				"id": 2976,
+				"name": "Jai"
+			},
+			{
+				"id": 2768,
+				"name": "Kpz"
+			},
+			{
+				"id": 2799,
+				"name": "Manoj"
+			},
+			{
+				"id": 2769,
+				"name": "Moh"
+			},
+			{
+				"id": 2710,
+				"name": "Mohsin"
+			},
+			{
+				"id": 2756,
+				"name": "Rahul"
+			}
+		]
+	},
+	"teamBowling": {
+		"id": 1805,
+		"name": "ashishtest",
+		"isTossWon": false,
+		"players": [
+			{
+				"id": 3103,
+				"name": "Ashish"
+			},
+			{
+				"id": 3105,
+				"name": "fff"
+			},
+			{
+				"id": 3104,
+				"name": "qwertyui"
+			}
+		]
+	},
+	"battingPlayers": [
+		{
+			"id": 2854,
+			"name": "Bowler 1",
+			"runs": 0,
+			"four": 0,
+			"six": 0,
+			"ballsFaced": 0,
+			"strikeRate": 0,
+			"battingNumber": false,
+			"isOut": false,
+			"outHow": "",
+			"walkInOver": 0,
+			"walkInBalls": 0,
+			"walkInTeamRuns": 0,
+			"walkoutWicket": 0,
+			"walkoutOver": 0,
+			"walkoutBalls": 0,
+			"walkoutTeamRuns": 0,
+			"wicketBowler": 0,
+			"wicketFilder": 0,
+			"notOutPlayerId": 0,
+			"notOutPlayerRuns": 0,
+			"overs": 2,
+			"balls": 0,
+			"ballsLegal": 0,
+			"mdns": 0,
+			"overRuns": 31,
+			"wickets": 1,
+			"economy": 15,
+			"wides": 0,
+			"noBalls": 0
+		},
+		{
+			"id": 2977,
+			"name": "Bhavarji",
+			"runs": 0,
+			"four": 0,
+			"six": 0,
+			"ballsFaced": 0,
+			"strikeRate": 0,
+			"battingNumber": 3,
+			"isOut": false,
+			"outHow": "",
+			"walkInOver": 0,
+			"walkInBalls": 0,
+			"walkInTeamRuns": 0,
+			"walkoutWicket": 0,
+			"walkoutOver": 0,
+			"walkoutBalls": 0,
+			"walkoutTeamRuns": 0,
+			"wicketBowler": 0,
+			"wicketFilder": 0,
+			"notOutPlayerId": 0,
+			"notOutPlayerRuns": 0,
+			"overs": 0,
+			"balls": 0,
+			"ballsLegal": 0,
+			"mdns": 0,
+			"overRuns": 0,
+			"wickets": 0,
+			"economy": 0,
+			"wides": 0,
+			"noBalls": 0
+		},
+		{
+			"id": 2978,
+			"name": "Aabid",
+			"runs": 12,
+			"four": 0,
+			"six": 0,
+			"ballsFaced": 6,
+			"strikeRate": 200,
+			"battingNumber": 2,
+			"isOut": false,
+			"outHow": "",
+			"walkInOver": 0,
+			"walkInBalls": 0,
+			"walkInTeamRuns": 0,
+			"walkoutWicket": 0,
+			"walkoutOver": 0,
+			"walkoutBalls": 0,
+			"walkoutTeamRuns": 0,
+			"wicketBowler": 0,
+			"wicketFilder": 0,
+			"notOutPlayerId": 0,
+			"notOutPlayerRuns": 0,
+			"overs": 2,
+			"balls": 0,
+			"ballsLegal": 0,
+			"mdns": 0,
+			"overRuns": 12,
+			"wickets": 0,
+			"economy": 6,
+			"wides": 0,
+			"noBalls": 0
+		}
+	],
+	"bowlingPlayers": [
+		{
+			"id": 3103,
+			"name": "Ashish",
+			"runs": 21,
+			"four": 1,
+			"six": 0,
+			"ballsFaced": 11,
+			"strikeRate": 191,
+			"battingNumber": 2,
+			"isOut": false,
+			"outHow": "",
+			"walkInOver": 0,
+			"walkInBalls": 0,
+			"walkInTeamRuns": 0,
+			"walkoutWicket": 0,
+			"walkoutOver": 0,
+			"walkoutBalls": 0,
+			"walkoutTeamRuns": 0,
+			"wicketBowler": 0,
+			"wicketFilder": 0,
+			"notOutPlayerId": 0,
+			"notOutPlayerRuns": 0,
+			"overs": 1,
+			"balls": 0,
+			"ballsLegal": 0,
+			"mdns": 0,
+			"overRuns": 12,
+			"wickets": 0,
+			"economy": 12,
+			"wides": 0,
+			"noBalls": 0
+		},
+		{
+			"id": 3104,
+			"name": "qwertyui",
+			"runs": 9,
+			"four": 0,
+			"six": 1,
+			"ballsFaced": 6,
+			"strikeRate": 180,
+			"battingNumber": 3,
+			"isOut": true,
+			"outHow": "Bowled",
+			"walkInOver": 0,
+			"walkInBalls": 0,
+			"walkInTeamRuns": 0,
+			"walkoutWicket": 1,
+			"walkoutOver": 1,
+			"walkoutBalls": 0,
+			"walkoutTeamRuns": 23,
+			"wicketBowler": 2854,
+			"wicketFilder": 0,
+			"notOutPlayerId": 3103,
+			"notOutPlayerRuns": 0,
+			"overs": 0,
+			"balls": 0,
+			"ballsLegal": 0,
+			"mdns": 0,
+			"overRuns": 0,
+			"wickets": 0,
+			"economy": 0,
+			"wides": 0,
+			"noBalls": 0
+		},
+		{
+			"id": 3105,
+			"name": "fff",
+			"runs": 11,
+			"four": 0,
+			"six": 0,
+			"ballsFaced": 7,
+			"strikeRate": 157,
+			"battingNumber": 4,
+			"isOut": false,
+			"outHow": "",
+			"walkInOver": 1,
+			"walkInBalls": 0,
+			"walkInTeamRuns": 23,
+			"walkoutWicket": 0,
+			"walkoutOver": 0,
+			"walkoutBalls": 0,
+			"walkoutTeamRuns": 0,
+			"wicketBowler": 0,
+			"wicketFilder": 0,
+			"notOutPlayerId": 0,
+			"notOutPlayerRuns": 0,
+			"overs": 0,
+			"balls": 0,
+			"ballsLegal": 0,
+			"mdns": 0,
+			"overRuns": 0,
+			"wickets": 0,
+			"economy": 0,
+			"wides": 0,
+			"noBalls": 0
+		}
+	],
+	"runs": 12,
+	"overs": 1,
+	"balls": 0,
+	"ballsTotal": 0,
+	"wickets": 0,
+	"wides": 0,
+	"noBalls": 0,
+	"byes": 0,
+	"legByes": 0,
+	"thisOver": [
+		{
+			"id": 1,
+			"playerId": 3103,
+			"runs": 10,
+			"wickets": 0,
+			"balls": [
+				{
+					"runs": 2,
+					"batsmanId": 2978
+				},
+				{
+					"runs": 2,
+					"batsmanId": 2978
+				},
+				{
+					"runs": 2,
+					"batsmanId": 2978
+				},
+				{
+					"runs": 2,
+					"batsmanId": 2978
+				},
+				{
+					"runs": 2,
+					"batsmanId": 2978
+				},
+				{
+					"runs": 2,
+					"batsmanId": 2978
+				}
+			]
+		}
+	],
+	"targetRuns": 43,
+	"totalOvers": 4,
+	"totalPlayers": 11,
+	"isFinished": 0,
+	"batsmanOnStrike": 2977,
+	"batsmanOffStrike": 2978,
+	"bowlerBowlingId": 0,
+	"bowlerBowlingId2": 3103,
+	"wagonWheel": []
+}
